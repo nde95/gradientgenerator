@@ -25,15 +25,15 @@ window.onload = RBC();
 
 
 // background changing
-// let setGradient = function() {
-// 	body.style.background = "linear-gradient(to right, " 
-// 	+ color1.value 
-// 	+ ", " 
-// 	+ color2.value 
-// 	+ ")";
+let setGradient = function() {
+	body.style.background = "linear-gradient(to right, " 
+	+ color1.value 
+	+ ", " 
+	+ color2.value 
+	+ ")";
 
-// 	css.textContent = body.style.background + ";";
-// }
+	css.textContent = body.style.background + ";";
+}
 
 // left
 color1.addEventListener("input", setGradient);
